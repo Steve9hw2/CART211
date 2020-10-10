@@ -1,0 +1,47 @@
+/* CSS time!!!! */
+body {
+  background-color: lightseagreen;
+  font-family: "gotham", helvetica, verdana, sans-serif;
+}
+
+h1 {
+  font-size: 42px;
+  color: darkslategray;
+  line-height: 24px;
+}
+
+h2 {
+  font-family: georgia, times, serif;
+  font-size: 24px;
+  color: aquamarine;
+  font-style: italic;
+}
+
+p {
+  color: darkslategray;
+}
+
+/* pseudo classes must be in this order
+    link -> visited -> hover -> active */
+
+a:link {
+  color: aquamarine;
+  text-transform: uppercase;
+  margin-right: 10px;
+  font-size: 18px
+}
+
+a:visited {
+  color: mediumaquamarine;
+}
+
+a:hover {
+  font-style: oblique;
+  color: aquamarine;
+  font-size: 20px
+}
+
+a:active {
+  color: mediumaquamarine;
+  font-size: 18px
+}
