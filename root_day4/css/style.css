@@ -47,6 +47,22 @@ section.links {
   padding-top: 1%;
 }
 
+section.ass a {
+  font-family: p5hatty, verdana, helvetica, sans-serif;
+  color:darkslateblue;
+  font-size: 2em;
+  padding-right:5%;
+  text-decoration: none
+}
+
+section.ass a:visited {
+  color:mediumslateblue;
+}
+
+section.ass a:hover {
+  color:slategray;
+}
+
 section.responselinks {
   background-color: slateblue;
   color:lightgray;

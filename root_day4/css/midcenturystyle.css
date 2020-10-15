@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* always use! */
+  font-family: helvetica;
+}
+
+body {
+  font-size: 16px;
+}
+
+
+section.text {
+  display: grid;
+  grid-template-columns: 32vw 18vw 6vw 6vw 7vw 7vw 24vw;
+  grid-template-rows: 50vh 30vh 20vh;
+}
+
+section.header_lrg {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 100vw;
+  background-color: darkcyan;
+}
+
+section.header_lrg header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding-left: 15%;
+  padding-top: 40%;
+  padding-right: 5%;
+  width:5vw;
+  transform: rotate(270deg);
+}
+
+section.header_lrg header h1 {
+  color:#08585c;
+  font-size:34em;
+}
+
+section.middle {
+  padding-top: 98%;
+  padding-left: 15%;
+  padding-right: 65%;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 5vw;
+  transform: rotate(270deg);
+}
+
+section.middle h2{
+  font-size: 14em;
+}
+
+section.midtext {
+  padding-bottom: 20%;
+  padding-right: 205%;
+
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 5vw;
+  height:10vw;
+  transform: rotate(270deg);
+}
+
+section.midtext article h4{
+  color: #5fbab4;
+  font-size: 4em;
+}
+
+section.redtext h5{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin-top: 400%;
+  margin-left: -30%;
+  color: red;
+  font-size: 3em;
+}
+
+section.foot {
+  grid-row-start: 2;
+  grid-row-start: 3;
+  width: 100vw;
+  background-color: darkcyan;
+}
+
+section.foot footer{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  margin-left: 84%;
+  margin-top: 3%;
+  font-size: 1.4em;
+}
+
+section.foot footer a{
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 1em;
+  color: black;
+}
