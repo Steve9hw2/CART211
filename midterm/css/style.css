@@ -6,6 +6,8 @@
 body {
   background-color: #7db5e3;
   font-family: verdana, sans-serif;
+  display: flex;
+  min-height: 100%;
 }
 
 header {
