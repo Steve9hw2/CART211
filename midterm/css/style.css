@@ -83,6 +83,24 @@ article a.active {
   color: #fff;
 }
 
+article.two {
+  background: #093559;
+  color: #fff;
+  font-size: 12px;
+}
+
+article.two p{
+  font-size: 12px;
+}
+
+article.three {
+  height: 80vh;
+}
+
+article.three p{
+    font-size: 12px;
+}
+
 /* classes start with a . and can be used many times on the page */
 .pull_quote {
   background-color: #095797;
