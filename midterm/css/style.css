@@ -4,12 +4,12 @@
 }
 
 body {
-  background-color: paleturquoise;
-  font-family: helvetica, verdana, sans-serif;
+  background-color: #7db5e3;
+  font-family: verdana, sans-serif;
 }
 
 header {
-  background-color: mediumturquoise;
+  background-color: #095797;
   color: #fff;
   padding: 1%;
 }
@@ -17,22 +17,22 @@ header {
 /* specificity targets elements inside of parents */
 header h1 {
   font-size:60px;
-  font-family: helvetica, verdana, sans-serif;
-  color: darkcyan;
+  font-family: verdana, sans-serif;
+  color: #fff;
 }
 header h2 {
   font-size: 30px;
-  font-family: p5hatty, verdana, arial, sans-serif;
-  color: darkcyan;
+  font-family: verdana, arial, sans-serif;
+  color: #fff;
 }
 
 nav {
-  background-color: darkcyan;
+  background-color: #093559;
 }
 
 nav a:link {
-  background-color: darkcyan;
-  color: paleturquoise;
+  background-color: #093559;
+  color: #fff;
   display:inline-block;
   text-decoration: none;
   font-size: 20px;
@@ -40,15 +40,15 @@ nav a:link {
   padding-left: 1%;
 }
 nav a:visited{
-  color: mediumturquoise;
+  color: #095797;
 }
 nav a:hover{
-  background-color: mediumturquoise;
-  color: darkcyan;
+  background-color: #095797;
+  color: #d6d6d6;
 }
 nav a.active {
-  background-color: mediumturquoise;
-  color: darkcyan;
+  background-color: #095797;
+  color: #fff;
 }
 article {
   padding:1%;
@@ -57,7 +57,7 @@ article p {
   padding:1%;
   margin-top: 1%;
   margin-bottom: 1%;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 article h2 {
@@ -65,15 +65,33 @@ article h2 {
   line-height: 35px;
 }
 
+article a:link {
+  color: #fff;
+  display:inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0.5%;
+  padding-left: 1%;
+}
+article a:visited{
+  color: #095797;
+}
+article a:hover{
+  color: #d6d6d6;
+}
+article a.active {
+  color: #fff;
+}
+
 /* classes start with a . and can be used many times on the page */
 .pull_quote {
-  background-color: mediumturquoise;
+  background-color: #095797;
   font-size: 25px;
   padding:1%;
   margin-left: 1%;
   font-style: italic;
-  border-left: solid 20px darkcyan;
-  border-top: solid 4px darkcyan;
+  border-left: solid 20px #093559;
+  border-top: solid 4px #093559;
 }
 
 figure {
@@ -95,7 +113,7 @@ figure img {
 
 footer {
   padding: 1%;
-  background-color: mediumturquoise;
+  background-color: #095797;
   font-family: georgia, times, serif;
   text-align: center;
   font-style: italic;
