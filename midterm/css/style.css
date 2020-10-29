@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: paleturquoise;
+  font-family: helvetica, verdana, sans-serif;
+}
+
+header {
+  background-color: mediumturquoise;
+  color: #fff;
+  padding: 1%;
+}
+
+/* specificity targets elements inside of parents */
+header h1 {
+  font-size:60px;
+  font-family: helvetica, verdana, sans-serif;
+  color: darkcyan;
+}
+header h2 {
+  font-size: 30px;
+  font-family: p5hatty, verdana, arial, sans-serif;
+  color: darkcyan;
+}
+
+nav {
+  background-color: darkcyan;
+}
+
+nav a:link {
+  background-color: darkcyan;
+  color: paleturquoise;
+  display:inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0.5%;
+  padding-left: 1%;
+}
+nav a:visited{
+  color: mediumturquoise;
+}
+nav a:hover{
+  background-color: mediumturquoise;
+  color: darkcyan;
+}
+nav a.active {
+  background-color: mediumturquoise;
+  color: darkcyan;
+}
+article {
+  padding:1%;
+}
+article p {
+  padding:1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 24px;
+}
+
+article h2 {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+/* classes start with a . and can be used many times on the page */
+.pull_quote {
+  background-color: mediumturquoise;
+  font-size: 25px;
+  padding:1%;
+  margin-left: 1%;
+  font-style: italic;
+  border-left: solid 20px darkcyan;
+  border-top: solid 4px darkcyan;
+}
+
+figure {
+  margin-bottom: 1%;
+  margin-left: 1%;
+  width: 25%;
+  float:left;
+  margin-right: 10%;
+}
+figcaption {
+  font-size: 16;
+  text-align: center;
+}
+
+figure img {
+  width:100%;
+  /* use % when you want a responsive img */
+}
+
+footer {
+  padding: 1%;
+  background-color: mediumturquoise;
+  font-family: georgia, times, serif;
+  text-align: center;
+  font-style: italic;
+}
