@@ -123,12 +123,22 @@ article.bgimage4 {
   padding-top: 50%;
   width: 100%;
   height:50%;
+  background: url("../images/coviddeath.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat:no-repeat;
+}
+
+article.bgimage5 {
+  background-color: #f09686;
+  padding-top: 50%;
+  width: 100%;
+  height:50%;
   background: url("../images/blackboard.png");
   background-size: cover;
   background-position: center center;
   background-repeat:no-repeat;
 }
-
 
 article.boxcontainer {
   width: 100%;

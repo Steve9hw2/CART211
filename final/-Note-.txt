@@ -1,0 +1,18 @@
+Hi Santo.
+
+Throughout the whole semester, I've felt myself greatly struggling to understand
+what I've been doing, and CSS specifically has felt like an impassible roadblock 
+to me. I considered reaching out a few times, but I was concerned that everyone
+else in the class knew exactly what they were doing and that I didn't belong in 
+the class if I couldn't follow, so I didn't really improve.
+
+My final is pretty minimal, and I'm aware that it lacks javascript and transitions,
+though I did try to get the latter working to no effect. I spent roughly a month
+trying to get things to display vertically without overlapping or refusing to
+change height, so my expectations were incredibly low. 
+
+If you read this, thank you very much. I hope you'll be able to understand where
+I'm coming from as a first timer with HTML and CSS with no clue about the structure
+of either. 
+
+- Steve
