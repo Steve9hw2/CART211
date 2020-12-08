@@ -4,7 +4,9 @@
   text-decoration: none;
 }
 
-
+h6 {
+  font-size: 6px;
+}
 
 body {
   background-color: #fff;
@@ -93,6 +95,40 @@ article.bgimage {
   background-position: center center;
   background-repeat:no-repeat;
 }
+
+article.bgimage2 {
+  background-color: #f09686;
+  padding-top: 50%;
+  width: 100%;
+  height:50%;
+  background: url("../images/studentslistening.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat:no-repeat;
+}
+
+article.bgimage3 {
+  background-color: #f09686;
+  padding-top: 50%;
+  width: 100%;
+  height:50%;
+  background: url("../images/shredding.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat:no-repeat;
+}
+
+article.bgimage4 {
+  background-color: #f09686;
+  padding-top: 50%;
+  width: 100%;
+  height:50%;
+  background: url("../images/blackboard.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat:no-repeat;
+}
+
 
 article.boxcontainer {
   width: 100%;
@@ -357,4 +393,37 @@ footer {
 footer.footimg img {
   display: flex;
   align-self: center;
+}
+
+
+article.long {
+  background-color: #223654;
+height:auto;
+  width: 100%;
+  position: absolute;
+}
+
+article.longcontainer {
+  position: relative;
+  margin-left: 10%;
+  margin-top: 2.5%;
+  background-color: #fff;
+  height:20%;
+  width:80%;
+  color: #223654;
+}
+
+article.long article.longtext {
+  margin-left: 8%;
+  padding-top: 2%;
+  font-size: 20px;
+  padding-bottom: 10%;
+}
+
+article.long article.longcontainer article.longtext h2 {
+  margin-top: 5%;
+}
+
+article.long article.longcontainer article.longtext a{
+  padding-top: 5%;
 }

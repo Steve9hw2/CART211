@@ -1,0 +1,80 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-size: 120%;
+  font-family: p5hatty, verdana, sans-serif;
+}
+
+h2 {
+  padding-left: 10%;
+}
+
+article.red {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: crimson;
+  transition: 3s;
+}
+
+article.red:hover {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  transition: 3s;
+}
+
+article.orange {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: chocolate;
+  transition: 3s;
+}
+
+article.orange:hover {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  transition: 3s;
+}
+
+article.yellow {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: darkgoldenrod;
+  transition: 3s;
+}
+
+article.yellow:hover {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  transition: 3s;
+}
+
+article.lime {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: greenyellow;
+  transition: 3s;
+}
+
+article.lime:hover {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  transition: 3s;
+}
+
+article.green {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: darkolivegreen;
+  transition: 3s;
+}
+
+article.green:hover {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  transition: 3s;
+}
